@@ -1,0 +1,23 @@
+body {
+  background-color: 	#393E46	;
+  color: lightblue;
+  font-family: 'Lobster', cursive;
+  text-align: center;
+}
+h1{
+  font-family: 'Lobster', cursive;
+  font-size: 7.5rem;
+}
+.first{
+  text-align: center;
+}
+.fa {
+  color: red;
+}
+.player{
+  font-size: 2rem;
+}
+.playerdice{
+  padding-left:  10%;
+  padding-right: 10%;
+}

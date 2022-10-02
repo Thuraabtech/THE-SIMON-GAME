@@ -1,0 +1,149 @@
+/* Title */
+ #title{
+  background-color: #ff4c68;
+  color: white;
+  position: relative;
+bottom: 50px;
+
+}
+.row{
+  padding-bottom: 0;
+}
+h1{
+  font-family: 'Montserrat';
+  font-size: 3rem;
+  line-height: 1.5;
+  color: white;
+}
+.container-fluid{
+  padding: 3% 15%;
+  padding-bottom: 0;
+
+}
+body{
+  font-family: "Montserrat";
+}
+/* navigation bar */
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding-bottom: 4.5rem;
+}
+.navbar-item{
+  padding-left: 18px;
+  padding-right: 18px;
+}
+/* download button */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+/* phone-image */
+.iphone-img{
+  width:60%;
+  transform: rotate(30deg);
+  margin-left: 35%;
+  position: relative;
+  right: 120px;
+  top: 50;
+
+}
+@media (max-width:1086px) {
+  .iphone-img{
+    transform: rotate(0);
+    margin:  50%;
+    text-align: center;
+  }
+  #title{
+    text-align: center;
+  }
+}
+/* icon */
+.icon{
+font-size: 50px;
+color: #FF8C8C;
+margin-bottom: 1rem;
+}
+.col{
+  text-align: center;
+  padding: 12rem 10rem;
+}
+.para{
+  font-family: Montserrat-light;
+}
+.icon:hover{
+  color:#ff4c68;
+}
+/* Testimonials */
+#testimonials{
+  background-color: #FF8C8C;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  padding-top: 50px
+}
+
+#press{
+    background-color: #FF8C8C;
+padding: 50px 50px;
+
+}
+.press-image{
+ padding-bottom: 30%;
+ margin: 0 20px;
+}
+.testimonials-img{
+  width: 10%;
+border-radius:  100%;
+margin: 50px;
+}
+.content{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.btn1{
+  width: 100%;
+}
+/* pricing */
+#pricing{
+  padding: 3% 2%;
+}
+/* Features */
+#features{
+  position: relative;
+  z-index: 1;
+  padding-bottom: 0;
+}
+.feature-row{
+  padding-bottom: 0;
+}
+  /* <!-- Call to Action --> */
+#cta{
+  background-color:#ff4c68;
+  text-align: center;
+  line-height: 2;
+  padding:150px 100px;
+  color: white;
+  font-family: Montserrat-black;
+
+}
+.btn2{
+  padding: 0 7%;
+  margin: 30px 15px;
+  height: 50px;
+}
+/* footer */
+#footer{
+  background-color: white;
+  padding: 50px ;
+  text-align: center;
+}
+.a:hover{
+  color:#FF8C8C;
+}
+.a{
+  padding: 100px ;
+}
